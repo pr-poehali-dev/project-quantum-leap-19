@@ -5,10 +5,10 @@ import { User, FileText, PenTool, Palette } from "lucide-react"
 type AppType = "about" | "resume" | "writings" | "art"
 
 const DOCK_ITEMS: Array<{ id: AppType; label: string; icon: typeof User }> = [
-  { id: "about", label: "Обо мне", icon: User },
-  { id: "resume", label: "Резюме", icon: FileText },
+  { id: "about", label: "О теме", icon: User },
+  { id: "resume", label: "Факты", icon: FileText },
   { id: "writings", label: "Статьи", icon: PenTool },
-  { id: "art", label: "Арт", icon: Palette },
+  { id: "art", label: "Галерея", icon: Palette },
 ]
 
 export function Dock() {
